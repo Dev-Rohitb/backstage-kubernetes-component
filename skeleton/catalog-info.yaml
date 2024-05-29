@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ${{values.component_id}}
-  description: ${{value.description}}
+  description: Solar System Application Kubernetes Deployment
   annotations:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
     backstage.io/kubernetes-id: ${{values.component_id}}
