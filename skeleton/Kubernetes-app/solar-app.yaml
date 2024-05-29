@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: solar-system-kubernetes-component
-    labels:
+  labels:
     backstage.io/kubernetes-id: solar-system-kubernetes-component
 spec:
   replicas: 3
