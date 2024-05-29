@@ -6,7 +6,6 @@ metadata:
   description: An app with GitHub Actions as CI and ArgoCD
   tags:
     - argocd
-    - Kubernetes
 spec:
   owner: group:backstage
   type: web-app
