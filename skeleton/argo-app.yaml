@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: https://github.com/Dev-Rohitb/backstage-kubernetes-component.git
     targetRevision: HEAD
-    path: ./skeleton/Kubernetes-app
+    path: ./skeleton/Kubernetes-app/solar-app.yaml
    
   # Destination cluster and namespace to deploy the application
   destination:
