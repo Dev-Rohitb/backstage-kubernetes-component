@@ -8,7 +8,7 @@ metadata:
     - argocd
 spec:
   owner: group:backstage
-  type: web-app
+  type: service
   parameters:
     - title: Provide Application information
       required:
